@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+    max-width: 200vh;
+}
+
+.card-text {
+    align-items: center;
+    color:yellow;
+    font-size: 50px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-heart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.heart {
+    animation-name: heart;
+    animation-duration: 4s;
+    width: 200px;
+}
+
+  @keyframes heart {
+    0%   {transform: scale(1.1)}
+    25%  {transform: scale(1.2)}
+    75%  {transform: scale(1.1)}
+    100% {transform: scale(1.0)}
+}
+
+  .star {
+    animation-name: star;
+    animation-duration: 4s;
+    width: 50px;
+   
+}
+
+  @keyframes star {
+    0%   {transform: scale(1.1)}
+    25%  {transform: scale(1.2)}
+    75%  {transform: scale(1.1)}
+    100% {transform: scale(1.0)}
+  }
+  
